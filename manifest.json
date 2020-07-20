@@ -1,0 +1,10 @@
+{
+    "name": "mynewtab",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "chrome plugin demo",
+    "chrome_url_overrides":{
+        "newtab":"dist/newtab.html"
+    }
+
+}

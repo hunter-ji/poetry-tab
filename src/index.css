@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "cus";
+  font-weight: 400;
+  src: url("./font/font.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #c04851;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  width: 500px;
+  min-height: 30vh;
+  background: #f9f4dc;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "cus", Arial, sans-serif;
+}
+
+.content-origin {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
