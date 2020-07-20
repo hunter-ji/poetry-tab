@@ -9,3 +9,33 @@
 
 ![screenshot](ScreenShot.png)
 
+### 使用
+
+* 拉下仓库
+
+```bash
+git clone https://github.com/Kuari/poetry-tab.git
+cd poetry-tab
+```
+
+* 编译
+
+```node.js
+yarn build
+```
+
+* 创建拓展内容
+
+```bash
+mkdir ext
+cp -rf dit manifest.json ext
+```
+
+* chrome添加插件，选择目标路径
+
+```bash
+<your-path>/poetry-tab/ext
+```
+
+
+
