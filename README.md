@@ -1,10 +1,11 @@
 ## Poetry Tab
 
-### Introduction
+### 简介
 
-The newly created blank page displays random verses. It is under development and is currently "The Analects".
+简单的tab页插件，页面随机显示论语，点击语句可以切换。
+后面将加入其他内容。
 
-### ScreenShot
+### 截图
 
 ![screenshot](ScreenShot.png)
 

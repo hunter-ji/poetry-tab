@@ -27,7 +27,7 @@ module.exports = {
     //loader
     rules: [
       {
-        test: /\.ttf$/,
+        test: /\.(ttf|webp)$/,
         use: {
           loader: "file-loader"
         }
