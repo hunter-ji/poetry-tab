@@ -21,6 +21,7 @@ cd poetry-tab
 * 编译
 
 ```node.js
+yarn
 yarn build
 ```
 
